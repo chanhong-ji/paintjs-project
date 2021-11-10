@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PaintJS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+      <div class="controls__range">
+        <input
+          type="range"
+          id="canvasRange"
+          min="0.1"
+          max="5"
+          value="2.5"
+          step="0.1"
+        />
+      </div>
+      <div class="constrols__btns">
+        <button id="canvasMode">Fill</button>
+        <button id="canvasSave">Save</button>
+      </div>
+      <ul class="controls__colors" id="jsColors">
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+        <li class="controls__color"></li>
+      </ul>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>

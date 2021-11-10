@@ -1,0 +1,38 @@
+{
+  "name": "paintjs-project",
+  "version": "1.0.0",
+  "description": "Painting Board made with VanillaJs & Canvas API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanhong-ji/paintjs-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanhong-ji/paintjs-project/issues"
+  },
+  "homepage": "https://github.com/chanhong-ji/paintjs-project#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-pug": "^5.0.0"
+  },
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "del": "^6.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.2"
+  }
+}
